@@ -133,6 +133,24 @@ long thermocoupleMvToC(unsigned long microvolts) {
 	return interpolateTemperature(microvolts, searchMicrovolts(microvolts));
 }
 
+/******************************************************************************
+ * Additional info
+ * ****************************************************************************
+ * Changelog:
+ * - v. 1.0 (initial release) 2014-04-24 by Albertas Mickėnas
+ *
+ * ****************************************************************************
+ * Bugs, feedback, questions and modifications can be posted on the github page
+ * on https://github.com/Miceuz/k-thermocouple-lib/
+ * ****************************************************************************
+ * - LICENSE -
+ * GNU GPL v2 (http://www.gnu.org/licenses/gpl.txt)
+ * This program is free software. You can redistribute it and/or modify
+ * it under the terms of the GNU General Public License version 2 as published
+ * by the Free Software Foundation.
+ * ****************************************************************************
+ */
+
 //~ void main(int argc, char **argv) {
 	//~ unsigned long i = 0;
 	//~ for(i = 0; i < 16383; i++) {
