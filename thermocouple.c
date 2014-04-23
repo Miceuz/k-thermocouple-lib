@@ -137,7 +137,7 @@ long thermocoupleMvToC(unsigned long microvolts) {
  * Additional info
  * ****************************************************************************
  * Changelog:
- * - v. 1.0 (initial release) 2014-04-24 by Albertas Mickėnas
+ * - v. 1.0 (initial release) 2014-04-24 by Albertas Mickėnas mic@wemakethings.net
  *
  * ****************************************************************************
  * Bugs, feedback, questions and modifications can be posted on the github page
