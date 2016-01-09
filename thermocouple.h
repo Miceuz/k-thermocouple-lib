@@ -1,4 +1,9 @@
 #ifndef __THERMOCOUPLE_H
+#define __THERMOCOUPLE_H
+
+#ifdef __cplusplus
+extern "C" {
+#endif
 
 /**
  * Returns temperature as a function of the ambient temperature and measured thermocouple voltage
@@ -10,7 +15,10 @@ long thermocoupleConvertWithCJCompensation(unsigned long microvoltsMeasured, uns
  */
 long thermocoupleMvToC(unsigned long microvolts);
 
+#ifdef __cplusplus
+}
 #endif
+#endif // _THERMOCOUPLE_H
 
 
 /******************************************************************************
